@@ -1,5 +1,5 @@
 {% set name = "bloptools" %}
-{% set version = "0.4.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bloptools-{{ version }}.tar.gz
-  sha256: 26923af9090ec3b9514e217fbf856fd16ea78f7f3be5fcf4ea1edf7e71edd452
+  sha256: d36f8ce37cc0231b6264d8512707eafd8fa7cffb14a69be1f72a9416db1c5573
 
 build:
   number: 0
