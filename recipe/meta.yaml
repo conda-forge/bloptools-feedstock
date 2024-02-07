@@ -19,6 +19,7 @@ requirements:
     - python >=3.8
     - pip
     - hatchling
+    - setuptools_scm
   run:
     - python >=3.8
     - bluesky >=1.11.0
